@@ -1,0 +1,172 @@
+/* common structures */
+body {
+	width: 90%;
+	background-color: lightgray;
+	border: 20px solid lightgray;
+}
+
+.whitebox {
+	width: 65%;
+	background-color: white;
+	overflow: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+}
+
+/* main.jsp */
+.main_header {
+	float: left; 
+	margin-top: 5%;
+	transform: rotate(-30deg);
+}
+
+#rotated_text {
+	margin:10px 10px 0 10px;
+	font-size: 30px;
+	font-weight: bold;
+	color: cadetblue;
+}
+
+.new_register {
+	float: right;
+	margin: 5% 20px 0 0;
+}
+
+.new_register nav {
+	width: 200px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	background-color: deepskyblue;
+}
+
+.table {
+	float: right;
+	margin-right: 20px;
+}
+
+.all_list {
+	display: -webkit-box;
+}
+
+.list {
+	list-style: none;
+	margin-top: 30px;
+	margin-left: -30px;
+}
+
+.list_header {
+	width: 320px;
+	height: 60px;
+	color: white;
+	font-size: 150%;
+	font-weight: bold;
+	text-indent: 10px;
+	background-color: cadetblue;
+	line-height: 60px;
+}
+
+.task_box {
+	width: 320px;
+	height: 80px;
+	margin-top: 10px;
+	background-color: lightcyan;
+}
+
+.task_title {
+	margin-left: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 45px;
+}
+
+.task_info {
+	margin: 0 0 10px 10px;
+	font-size: 12px;
+}
+
+.change_type {
+	float: right;
+	margin-right: 2%;
+}
+
+/* todoForm.jsp */
+body, .whitebox, .register_todo {
+	margin: 0 auto;
+}
+
+.register_todo {
+	width: 40%;
+}
+
+.register_form {
+	padding-bottom: 50px;
+}
+
+.register_head {
+	padding-top: 20px;
+	margin-bottom: 15px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.input_items {
+	font-size: 18px;
+}
+
+.input_text {
+	margin-bottom: 20px;
+	font-size: 18px;
+	width: 100%;
+	height: 30px;
+	text-indent: 0.3em;
+}
+
+#input_name {
+	width: 45%;
+}
+
+.prioprity {
+	margin-bottom: 45px;
+}
+
+.prioprity span {
+	margin-right: 20px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.submit_init {
+	float: right;
+}
+
+.submit_init input {
+	width: 100px;
+	height: 30px;
+	color: white;
+	background-color: skyblue;
+	border: 5px solid skyblue;
+}
+
+.submit_init input:hover {
+	cursor:pointer;
+}
+
+#main_page {
+	float: left;
+	width: 100px;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
+	line-height: 30px;
+}
